@@ -9,6 +9,7 @@ clean:
 
 build: clean
 	@bundle add rexml
+	@bundle install
 	@bundle exec jekyll build --profile
 
 server: clean
