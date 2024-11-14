@@ -5,7 +5,7 @@ gemspec
 gem "webrick"
 
 group :jekyll_plugins do
-  gem "jekyll-mentions", "1.6.0"
+  gem "jekyll-mentions", "1.5.1"
   gem "webrick"
 end
 
