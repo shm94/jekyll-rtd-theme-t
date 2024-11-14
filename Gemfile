@@ -2,8 +2,8 @@ source "https://rubygems.org" # gems.ruby-china.com
 
 gemspec
 
-gem install webrick
-gem install jekyll -mentions
+gem webrick
+gem jekyll -mentions
 
 group :jekyll_plugins do
   gem "jekyll-mentions", "1.6.0"
