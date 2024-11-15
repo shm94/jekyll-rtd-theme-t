@@ -1,5 +1,4 @@
 default:
-	@bundle add webrick
 	@bundle install
 
 update:
@@ -9,6 +8,7 @@ clean:
 	@bundle exec jekyll clean
 
 build: clean
+	@bundle add webrick
 	@bundle exec jekyll build --profile
 
 server: clean
