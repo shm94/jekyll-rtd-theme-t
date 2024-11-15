@@ -1,4 +1,5 @@
 default:
+	@bundle add webrick
 	@bundle install
 
 update:
