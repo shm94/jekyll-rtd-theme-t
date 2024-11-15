@@ -1,5 +1,4 @@
 default:
-	@bundle config set --local path 'vendor/path'
 	@bundle install
 
 update:
